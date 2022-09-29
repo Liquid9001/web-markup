@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://moodle.inholland.nl/mod/resource/view.php?id=1260675');
+font-face
+{
+	font-family: "moodel";
+	src:url("");
+}
+
+h1
+{
+	font-family: "Courier New","Lucida Console";
+	size = 32px;
+	color : #FF0000;
+	font-style: oblique;
+} 
+p
+{
+	font-family: 'Cedarville Cursive', cursive;
+	size = 10vw;
+	color: rgb(0,0,255);
+}
+footer
+{
+	font-family: "Ostrich sans master";
+}
