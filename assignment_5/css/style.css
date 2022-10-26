@@ -1,0 +1,9 @@
+p .pinkpanther, .hulk
+	{
+		color : #F0F; /*pink*/
+	}
+
+p.hulk
+	{
+		color : #0F0; /*green*/
+	}
