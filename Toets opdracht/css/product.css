@@ -1,0 +1,231 @@
+header
+{
+	grid-area: headerTag;
+}
+nav 
+{
+	grid-area: navTag;
+}
+#backstory
+{
+	grid-area: article1Tag;
+}
+#problem
+{
+	grid-area: article2Tag;
+}
+#how
+{
+	grid-area: article3Tag;
+}
+#who
+{
+	grid-area: article4Tag;
+}
+#service
+{
+	grid-area: article5Tag;
+}
+#future
+{
+	grid-area: article6Tag;
+}
+#img1
+{
+	grid-area: img1Tag;
+}
+#img2
+{
+	grid-area: img2Tag;
+}
+#img3
+{
+	grid-area: img3Tag;
+}
+footer
+{
+	grid-area: footerTag;
+}
+#cookies
+{
+	grid-area: coockiesTag;
+}
+@media screen and (max-width: 719px)
+	{
+		.menu, .menu ul, .menu li, .menu a
+		{
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		.menu 
+		{
+			width: 100%; 
+		}
+		.menu li
+		{
+			position: relative;
+			display: block;
+			float: left;
+		}
+		.menu li a
+		{
+			display: block;
+			padding: 0px 50px 0px 0px;
+		}
+		.menu ul
+		{
+			position: absolute;
+			opacity: 0;
+			background: #FFF;
+		}
+		
+		
+	}
+
+@media screen and (min-width: 720px) and (max-width: 1279px)
+header
+{
+	grid-area: headerTag;
+}
+nav 
+{
+	grid-area: navTag;
+}
+#backstory
+{
+	grid-area: article1Tag;
+}
+#problem
+{
+	grid-area: article2Tag;
+}
+#how
+{
+	grid-area: article3Tag;
+}
+#service
+{
+	grid-area: article5Tag;
+}
+#future
+{
+	grid-area: article6Tag;
+}
+#img1
+{
+	grid-area: img1Tag;
+}
+#img2
+{
+	grid-area: img2Tag;
+}
+footer
+{
+	grid-area: footerTag;
+}
+#cookies
+{
+	grid-area: coockiesTag;
+}
+#grid-container
+	{
+		background-color: #FCF;
+		border: solid 10px #FAF;
+		padding: 10px;
+		
+		display: grid;
+		grid-gap: 10px;
+		
+		/*colum1	colum2	colum3	colum4	colum5	colum6*/
+		grid-template-areas:
+		'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag'
+		'navTag		navTag		navTag		navTag		navTag		navTag'
+		'article1Tag	article1Tag	article1Tag article2Tag	article2Tag	article2Tag'
+		'article1Tag	article1Tag	article1Tag	article2Tag	article2Tag	article2Tag'
+		'article3Tag	article3Tag	article3Tag	article2Tag	article2Tag	article2Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article6Tag	article6Tag	article6Tag	article6Tag	article6Tag	article6Tag'
+		'article6Tag	article6Tag	article6Tag	article6Tag	article6Tag	article6Tag'
+		'img1Tag	img1Tag	img1Tag	img2Tag	img2Tag	img2Tag'
+		'img1Tag	img1Tag	img1Tag	img2Tag	img2Tag	img2Tag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+	}
+	
+@media screen and (min-width: 1280px)
+header
+{
+	grid-area: headerTag;
+}
+nav 
+{
+	grid-area: navTag;
+}
+#backstory
+{
+	grid-area: article1Tag;
+}
+#problem
+{
+	grid-area: article2Tag;
+}
+#how
+{
+	grid-area: article3Tag;
+}
+#service
+{
+	grid-area: article5Tag;
+}
+#future
+{
+	grid-area: article6Tag;
+}
+#img1
+{
+	grid-area: img1Tag;
+}
+#img2
+{
+	grid-area: img2Tag;
+}
+footer
+{
+	grid-area: footerTag;
+}
+#cookies
+{
+	grid-area: coockiesTag;
+}
+#grid-container	
+	{
+		background-color: #FCF;
+		border: solid 10px #FAF;
+		padding: 10px;
+		
+		display: grid;
+		grid-gap: 10px;
+		
+		/*colum1	colum2	colum3	colum4	colum5	colum6*/
+		grid-template-areas:
+		'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag'
+		'navTag		navTag		navTag		navTag		navTag		navTag'
+		'article1Tag	article1Tag	article1Tag article2Tag	article2Tag	article2Tag'
+		'article1Tag	article1Tag	article1Tag	article2Tag	article2Tag	article2Tag'
+		'article3Tag	article3Tag	article3Tag	article2Tag	article2Tag	article2Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article3Tag	article3Tag	article3Tag	article5Tag	article5Tag	article5Tag'
+		'article6Tag	article6Tag	article6Tag	article6Tag	article6Tag	article6Tag'
+		'article6Tag	article6Tag	article6Tag	article6Tag	article6Tag	article6Tag'
+		'img1Tag	img1Tag	img1Tag	img2Tag	img2Tag	img2Tag'
+		'img1Tag	img1Tag	img1Tag	img2Tag	img2Tag	img2Tag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		
+	}

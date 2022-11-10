@@ -2,14 +2,17 @@
 	version="1.1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
+	height ="300"
+	width = "300"
+	viewbox ="0 0 300 300"
 	>
 	
 	<polygon 
-		points="1200,50 1200,300 900,370"
+		points="80,60 200,150 95,190"
 		fill="#045" 
 		/>
 	<polygon 
-		points="575,125 700,250 600,370"  
+		points="210,60 210,150 120,200"  
 		fill="#045" 
 		/>
 	<circle
@@ -61,11 +64,15 @@
 		stroke-width="3"
 		fill="#FFF"	
 		/>
-	<circle 
+	<ellipse 
 		cx="53%" 
-		cy="55%" 
-		r="4%" 
+		cy="56%" 
+		rx="5%"
+		ry="9"
 		fill="#679"
 		/>
+		<polyline 
+		points="150,185 151,186 152,187 153,188 154,189 155,189 160,189 163,187 166,185 166,185 170,181 170,180"
+		style="fill:none;stroke:black;stroke-width:3" />
 
 </svg>
