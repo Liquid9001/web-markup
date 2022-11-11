@@ -1,3 +1,5 @@
 student name: Enes Budak
 student number: 699275
 student class: HAINFVT1C
+https://liquid9001.github.io/
+https://github.com/Liquid9001/Liquid9001.github.io
