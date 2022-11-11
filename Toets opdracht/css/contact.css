@@ -1,0 +1,223 @@
+header
+{
+	grid-area: headerTag;
+}
+nav 
+{
+	grid-area: navTag;
+}
+label
+{
+	grid-area: labelTag;
+}
+#img1
+{
+	grid-area: img1Tag;
+}
+#img2
+{
+	grid-area: img2Tag;
+}
+#img3
+{
+	grid-area: img3Tag;
+}
+footer
+{
+	grid-area: footerTag;
+}
+#cookies
+{
+	grid-area: coockiesTag;
+}
+@media screen and (max-width: 480px)
+	{
+		.menu, .menu ul, .menu li, .menu a
+		{
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		.menu 
+		{
+			width: 100%; 
+		}
+		.menu li
+		{
+			position: relative;
+			display: block;
+			float: left;
+		}
+		.menu li a
+		{
+			display: block;
+			padding: 0px 50px 0px 0px;
+		}
+		.menu ul
+		{
+			position: absolute;
+			opacity: 0;
+			background: #FFF;
+		}
+		header
+	{
+		grid-area: headerTag;
+	}
+	nav
+	{
+		grid-area: navTag;
+	}
+	form
+	{
+		grid-area: formTag;
+	}
+	#img1
+	{
+		grid-area: img1Tag;
+	}
+	#img2
+	{
+		grid-area: img2Tag;
+	}
+	footer
+	{
+		grid-area: footerTag;
+	}
+	#cookies
+	{
+		grid-area: coockiesTag;
+	}
+	#grid-container
+	{
+		background-color: #FCF;
+		border: solid 10px #FAF;
+		padding: 10px;
+		
+		display: grid;
+		grid-gap: 10px;
+		
+		/*colum1	colum2	colum3	colum4	colum5	colum6*/
+		grid-template-areas:
+		'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag'
+		'navTag		navTag		navTag		navTag		navTag		navTag'
+		'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+		'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+		'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+		'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+		'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+		'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+	}
+		
+	}
+
+@media screen and (min-width: 481px) and (max-width: 1279px)
+	{
+		header
+		{
+			grid-area: headerTag;
+		}
+		nav
+		{
+			grid-area: navTag;
+		}
+		form
+		{
+			grid-area: formTag;
+		}
+		#img1
+		{
+			grid-area: img1Tag;
+		}
+		#img2
+		{
+			grid-area: img2Tag;
+		}
+		footer
+		{
+			grid-area: footerTag;
+		}
+		#cookies
+		{
+			grid-area: coockiesTag;
+		}
+		#grid-container	
+		{
+		background-color: #FCF;
+		border: solid 10px #FAF;
+		padding: 10px;
+		
+		display: grid;
+		grid-gap: 10px;
+		
+		/*colum1	colum2	colum3	colum4	colum5	colum6*/
+		grid-template-areas:
+		'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag'
+		'navTag		navTag		navTag		navTag		navTag		navTag'
+		'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+		'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+		'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+		'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+		'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+		'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+		}
+	}
+	
+@media screen and (min-width: 1280px)
+{
+	header
+	{
+		grid-area: headerTag;
+	}
+	nav 
+	{
+		grid-area: navTag;
+	}
+
+	#img1
+	{
+		grid-area: img1Tag;
+	}
+	#img2
+	{
+		grid-area: img2Tag;
+	}
+	#img3
+	{
+		grid-area: img3Tag;
+	}
+	footer
+	{
+		grid-area: footerTag;
+	}
+	#cookies
+	{
+		grid-area: coockiesTag;
+	}
+	#grid-container	
+		{
+			background-color: #FCF;
+			border: solid 10px #FAF;
+			padding: 10px;
+			
+			display: grid;
+			grid-gap: 10px;
+			
+			/*colum1	colum2	colum3	colum4	colum5	colum6*/
+			grid-template-areas:
+			'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag'
+			'navTag		navTag		navTag		navTag		navTag		navTag'
+			'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+			'formTag	formTag	formTag	formTag	img1Tag	img1Tag'
+			'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+			'formTag	formTag	formTag	formTag	img2Tag	img2Tag'
+			'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+			'formTag	formTag	formTag	formTag	img3Tag	img3Tag'
+			'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+			'footerTag	footerTag	footerTag	cookiesTag	cookiesTag	cookiesTag'
+			
+		}
+}
